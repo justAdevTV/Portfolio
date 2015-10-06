@@ -1,5 +1,6 @@
 #background {
-  background-color: #0066AB;
+  background-color: #1A5277;
+  text-shadow: 2px 2px 2px #000000;
 }
 
 #title{
@@ -25,6 +26,7 @@
   text-align: center;
   padding-bottom: 2px;
   word-spacing: 12px;
+  color: #FFDCDC;
 }
 
 h1 {
