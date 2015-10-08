@@ -1,71 +1,19 @@
-#background {
-  background-color: #1A5277;
-  text-shadow: 2px 2px 2px #000000;
+.value-props {
+    margin-top: 9rem;
+    margin-bottom: 7rem;
 }
 
-#title{
+.value-prop {
+  margin-top: 1rem; }
+
+.value-img {
+  display: block;
   text-align: center;
-  margin-top: 11.5em;
-  color: #FFDCDC;
-}
+  width: 80px;
+  margin: 2.5rem auto 0; }
 
-#footer{
-  position: fixed;
-  bottom: 0px;
-  color: #FFDCDC;
-  text-align: center;
-  width: 100%;
-}
-
-#links a{
-  color: #FFDCDC;
-  text-decoration: none;
-}
-
-#links {
-  text-align: center;
-  padding-bottom: 2px;
-  word-spacing: 12px;
-  color: #FFDCDC;
-}
-
-h1 {
-	font-family: 'Pontano Sans', sans-serif;
-	font-size: 110px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 500;
-	line-height: 23px;
-}
-h3 {
-	font-family: 'Pontano Sans', sans-serif;
-	font-size: 23px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 500;
-	line-height: 23px;
-}
-p {
-	font-family: 'Pontano Sans', sans-serif;
-  font-size: 44px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 400;
-	line-height: 23px;
-}
-blockquote {
-	font-family: 'Pontano Sans', sans-serif;
-	font-size: 44px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 400;
-	line-height: 23px;
-}
-pre {
-	font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
-	font-size: 11px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 400;
-	line-height: 23px;
-}
+.value-prop {
+  margin-top: 1rem; }
+.value-props {
+  margin-top: 4rem;
+  margin-bottom: 4rem; }
