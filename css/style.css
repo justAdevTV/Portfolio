@@ -37,7 +37,7 @@
   position: absolute;
   left: 50%;
   margin-right: -50%;
-  transform: translate(-50%, 0%)
+  transform: translate(-42%, 0%)
 }
 
 .navbar-item {
@@ -78,4 +78,8 @@
   border-top: 1px solid #eee;
   padding: 2rem;
   margin-bottom: 0;
+}
+
+.justify{
+  text-align: justify;
 }
