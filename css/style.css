@@ -10,6 +10,7 @@
   display: block;
   text-align: center;
   width: 80px;
+  length: 80px;
   margin: 2.5rem auto 0; }
 
 .value-prop {
@@ -34,18 +35,20 @@
   list-style: none;
   margin-bottom: 0;
   position: absolute;
-  left: 37%;
+  left: 50%;
   margin-right: -50%;
+  transform: translate(-50%, 0%)
 }
 
 .navbar-item {
   position: relative;
   float: left;
-  margin-bottom: 0; }
+  margin-bottom: 0;
+}
 
 .navbar-link {
   text-align: center;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 600;
   letter-spacing: .2rem;
   margin-right: 35px;
@@ -58,10 +61,15 @@
   border-top: 1px solid #eee;
   padding: 4rem 0;
   margin-bottom: 0;
+  pointer-events: none; /* Added this thing*/
+}
+
+.no-underline {
+  text-decoration:none;
 }
 
 .docs-header {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   letter-spacing: .2rem;
   font-weight: 600;
 }
